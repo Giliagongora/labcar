@@ -1,0 +1,25 @@
+/* navbar - menu - section-one */
+.navbar-inverse {
+    background-color: white;
+    border-color: none; 
+}
+/* section-two */
+.section-two{
+	background-image: url("../img/taxi.jpg");
+	height: 900px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* section-three */
+.section-three{
+	background-color: #fafa00;
+	width: 100%;
+	height: 500px;
+}
+/* section-four */
+.section-four{
+	background-image: url("../img/conduce.jpg");
+	height: 900px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
