@@ -1,10 +1,4 @@
-body{
-	margin: 0px;
-	padding: 0px;
-}
-.container-fluid{
-	padding: 0px;
-}
+
 /* navbar - menu - section-one */
 .navbar-inverse {
     background-color: white;
@@ -13,25 +7,22 @@ body{
 /* section-two */
 .section-two{
 	background-image: url("../img/taxi.jpg");
-	height: 900px;
+	height: 790px;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-position: 0 92%;
 }
 .baseone{
-	margin-top: 41%;
-	background-color: #e0d728;
+	margin-top: 56%;
+	background-color: #f7b617;
 	height: 300px;
-	width: 100%;
-	margin-right: 0px;
+	width: 98%;
+	margin-left: 4%;
 }
-.form-group {
-    margin-bottom: 20px;
-    padding-left: 3%;
-}
+
 /* section-three */
 .section-three{
-	background-color: #e0d728;
+	background-color: #f7b617;
 	width: 100%;
 	height: 600px;
 }
@@ -39,8 +30,9 @@ body{
 	height: 500px;
 	width: 70%;
 	border: 1px solid white;
-	background-color: #e0d728;
+	background-color: #f7b617;
 }
+
 /* section-four */
 .section-four{
 	background-image: url("../img/conduce.jpg");
@@ -49,13 +41,21 @@ body{
     background-repeat: no-repeat;
 }
 /* section-six */
-.section-six{
-	background-color: #e0d728;
+.section-five{
+	background-color: #f7b617;
 	width: 100%;
 	height: 500px;
 }
+#map{
+	width: 50%;
+	height: 50vh;
+	border: 2px solid black;
+	margin-top: 3%;
+	margin-left: 5%;
+}
+
 /* section-six */
-.section-seven{
+.section-six{
 	background-color: #707070;
 	width: 100%;
 	height: 500px;
