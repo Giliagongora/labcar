@@ -1,7 +1,14 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+.container-fluid{
+	padding: 0px;
+}
 /* navbar - menu - section-one */
 .navbar-inverse {
     background-color: white;
-    border-color: none; 
+    border-color: white; 
 }
 /* section-two */
 .section-two{
@@ -9,12 +16,30 @@
 	height: 900px;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: bottom;
+}
+.baseone{
+	margin-top: 41%;
+	background-color: #e0d728;
+	height: 300px;
+	width: 100%;
+	margin-right: 0px;
+}
+.form-group {
+    margin-bottom: 20px;
+    padding-left: 3%;
 }
 /* section-three */
 .section-three{
-	background-color: #fafa00;
+	background-color: #e0d728;
 	width: 100%;
+	height: 600px;
+}
+.basetwo{
 	height: 500px;
+	width: 70%;
+	border: 1px solid white;
+	background-color: #e0d728;
 }
 /* section-four */
 .section-four{
@@ -22,4 +47,16 @@
 	height: 900px;
     background-size: cover;
     background-repeat: no-repeat;
+}
+/* section-six */
+.section-six{
+	background-color: #e0d728;
+	width: 100%;
+	height: 500px;
+}
+/* section-six */
+.section-seven{
+	background-color: #707070;
+	width: 100%;
+	height: 500px;
 }
