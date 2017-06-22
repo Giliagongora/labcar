@@ -20,39 +20,28 @@
 <body>
 	<!--navbar - menu -->
 	<section class="section-one">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-md-12 col-sm-12 col-xs-12">
-					 <nav class="navbar navbar-inverse navbar-fixed-top">
-			            <div class="container-fluid">
-			                <div class="navbar-header">
-			                    <button type="button" class="navbar-toggle" data-toogle="collapse">
-			                        <span class="sr-only">Toggle navigation</span>
-			                        <span class="icon-bar"></span>
-			                        <span class="icon-bar"></span>
-			                        <span class="icon-bar"></span>
-			                    </button>
-			                </div>
-			                <div class="navbar-collapse">
-			                	<ul class="nav navbar-nav navbar-left">
-			                    	<li><a href="#"><img src="assets/img/logo.png" alt="placeholder+image" class="img-responsive"></a></li>
-			                    </ul>
-			                   
-			                    <ul class="nav navbar-nav navbar-right navbar-collapse collapse" id="menuone">
-			                        <li><a href="#">Viaja</a></li>
-			                        <li><a href="#">Conduce</a></li>
-			                        <li><a href="#">Inicia sesión</a></li>                       
-			                    </ul>		                
-
-			                </div>			                	
-
-			            </div>	                
-			        </nav>					
-				</div>
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container-fluid">
+		        <div class="navbar-header">
+			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false" class="nav navbar-nav navbar-left">
+				        <span class="sr-only">Toggle navigation</span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+			      </button>
+		      			<a class="navbar-brand" href="#index"><img src="assets/img/logo.png" alt="logo-nav" width="100"></a>
+		         </div>
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				    <ul class="nav navbar-nav navbar-right">
+					    <li><a href="#info">Viaja</a></li>
+					    <li><a href="#conducir">Conduce</a></li>
+					    <li><a href="#index">Inicia Sesión</a></li>
+				    </ul>
+			    </div>
 			</div>
-		</div>
+		</nav>
 	</section>
-<!--seccón de de imagen del taxi -->
+<!--sección de de imagen del taxi -->
 	<section class="section-two" class="img-responsive">
 		<div class="container-fluid">
 			<div class="row">
@@ -65,9 +54,9 @@
 								
 								<p>REGISTRATE</p>
 								
-							<!--		<input type="text">
+									<input type="text" class="btn linea" >
 									<p>O bien</p>
-									<input type="text">-->
+									<input type="text" class="btn linea">
 								
 								<button type="button" class="btn" id="boton2">Conviértete en un conductor</button>
 							</div>
@@ -79,12 +68,12 @@
 <!--seccón de de imagen del celular -->
 	<section class="section-three">
 		<div class="container-fluid">
-			<div class="row" >
+			<div class="row" id="rowthree" >
 				
 					<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
 						<img src="assets/img/celular.png" alt="" class="img-responsive" id="celularone">
 					</div>							
-					<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 ">						
+					<div class="col-lg-6 col-md-4 col-sm-12 hidden-xs" id="basetexto">						
 						<h1>Descarga la nueva app</h1>
 						<p>La versión actualizada de LabCar está llena de nuevas funciones para llegar a donde quieras aún más fácil y rápido.</p>
 						<p>Con solo tocar un botón, un auto llega justo a tu ubicación. Súbete y no te preocupes: tu conductor sabe exactamente a dónde ir.</p>
@@ -111,16 +100,33 @@
 <!--seccón del mapa -->	
 	<section class="section-five" >
 		<div class="container-fluid">
-			<div class="row" id="rowfive">				
+			<div class="row" id="row2">				
 				<div class="col-lg-6 col-md-4 col-sm-12 col-xs-12">
-					<div>
-						<h1>Tarifas</h1>
-						<p>Consulta las tarifas LabCar aquí</p>
-						<img src="assets/img/circulo.png" alt="circulo"><input type="text" class="btn" placeholder="Ingrese un punto de partida">
-						<img src="assets/img/flecha.png" alt="circulo"><input type="text" class="btn" placeholder="Ingrese un punto de partida">
-					</div>
+						<div id="rowinputone">
+							<h2>Tarifas</h2>
+							<p>Consulta las tarifas LabCar aquí</p>
+						
+							<div class="row">
+								<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+									<img src="assets/img/circulo.png" alt="circulo" id="imgcir">
+									<input type="text" class="btn" placeholder="Ingrese su punto de partida" id="inicio">
+
+
+								</div>
+
+							</div>
+
+							<div class="row" id="borde">
+								<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">			
+									<img src="assets/img/flecha.png" alt="circulo" id="imgfle">
+									<input type="text" class="btn" placeholder="Ingrese su destino" id="fin">
+
+								</div>
+								<button type="button" class="btn btn-default" id="ruta">¡Trazar Ruta!</button>
+							</div>
+						</div>
 				</div>							
-				<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12" id="map">						
+				<div class="col-lg-6 col-md-12 col-sm-12 hidden-xs" id="map">				
 						
 				</div>				
 			</div>					
@@ -160,7 +166,7 @@
 								<li><a href="#">Seguridad</a></li>
 							</ul>
 						</div>
-						<div class="col-lg-3 col-md-12 col-sm-12 col-xs-12 " id="ancho">
+						<div class="col-lg-3 col-md-12 col-sm-12 hidden-xs " id="ancho">
 							<ul>
 								<li><a href="#">Oportunidades</a></li>
 								<li><a href="#">Nuestra historia</a></li>
@@ -198,10 +204,9 @@
 	
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD5MZYLSr8wAuwBeTe3-H_7Cf_Ou1sh1fQ&callback=initMap"
     async defer></script>
-
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
+	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD5MZYLSr8wAuwBeTe3-H_7Cf_Ou1sh1fQ&libraries=places&callback=initMap" async defer></script>
 

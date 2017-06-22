@@ -21,32 +21,27 @@ h1 h2 h3 h4 h5 h6{
 	margin: 2% 0%;
 }
 /* navbar - menu - section-one */
-.section-one{
-	height: 116px;
-	color: white;
-}
-.navbar-inverse {
+.navbar-default {
     background-color: white;
-    border-color: white; 
+    border-color: width
+    height: 100px;
 }
-.navbar-inverse .navbar-toggle .icon-bar {
-    background-color: black;
+.navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 0px;
+    padding: 2% 10%;
 }
-.nav li a img {
-    max-width: none;
-    padding-left: 48%;
-    padding-top: 10%;
-}
-.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
-    border-color: white;
-    height: 117px;
-}
-#menuone{
-	padding-top: 3%;
-	padding-right: 8%;
-}
-.navbar-inverse .navbar-nav li a {
-    color: black;
+.navbar-toggle {
+    position: relative;
+    float: left;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
 }
 /* section-two */
 .section-two{
@@ -78,7 +73,9 @@ h1 h2 h3 h4 h5 h6{
 	background-color: #f7b617;
 	width: 100%;
 	height: 600%;
-	padding: 6%;
+	padding-top: 2%;
+	padding-right: 2%;
+	padding-bottom: 2%;
 }
 .basetwo{
 	height: 90%;
@@ -91,10 +88,22 @@ h1 h2 h3 h4 h5 h6{
 #celularone{
 	width: 50vh;
 	margin: 0px 10%;
+	padding-right: 3%;
 
 }
-
-
+#rowthree{
+	width: 80%;
+	height: 30%;
+	border: 1px solid white;
+	padding: 2%;
+}
+#basetexto{
+	padding-left: 13%;
+	font-size: 130%;
+}
+.section-three p{
+	padding-top: 7%;
+}
 /* section-four */
 .section-four{
 	background-image: url(../img/conduce.jpg);
@@ -109,7 +118,7 @@ h1 h2 h3 h4 h5 h6{
 	width: 100%;
 	color: white;
 	padding-top: 15%;
-	padding-bottom: 66,5%;
+	padding-bottom: 62%;
 	padding-left: 8%;
 	padding-right: 4%;
 }
@@ -120,11 +129,14 @@ h1 h2 h3 h4 h5 h6{
 #boton3{
 	background-color: #f7b617;
 }
-/* section-six */
+/* section-five */
 .section-five{
 	background-color: #f7b617;
 	width: 100%;
 	height: 100%;
+}
+.section-five h2{
+	color: white;
 }
 #rowfive{
 	padding-bottom: 5%;
@@ -135,8 +147,50 @@ h1 h2 h3 h4 h5 h6{
 	height: 70vh;
 	border: 2px solid white;
 	margin-left: 5%;
+}
+#rowinputone{
+	padding-left: 20%;
 
 }
+#rowinputone input{
+	background-color: #f7b617;
+	border: 1px solid white;
+	width: 60%;
+	
+}
+#rowinputone h1,p,img,input{
+	padding-bottom: 5%;
+	color: white;
+}
+#imgcir{
+	padding-top: 6%;
+	padding-right: 6%;
+}
+#imgfle{
+	padding-top: 6%;
+	padding-right: 6%;
+}
+.sectionfive input{
+	width: 7%;
+}
+#ruta{
+	margin-top: 8%;
+	margin-left: 25%;
+}
+button#ruta.btn.btn-default{
+	background-color: white;
+	
+	font-weight: bold;
+}
+.margen{
+	border: 3px solid white;
+	padding: 6%;
+}
+#row2{
+	padding-bottom: 4%;
+	padding-top: 4%;
+}
+
 
 /* section-six */
 .section-six{
